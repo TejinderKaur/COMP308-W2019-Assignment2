@@ -13,7 +13,7 @@ router.get('/contact', function(req, res, next) {
   res.render('index', { title: 'Contact' });
 });
 router.get('/project', function(req, res, next) {
-  res.render('index', { title: 'Project' });
+  res.render('project', { title: 'Project' });
 });
 router.get('/services', function(req, res, next) {
   res.render('index', { title: 'Services' });

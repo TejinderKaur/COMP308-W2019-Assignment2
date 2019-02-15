@@ -19,7 +19,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'node_modules')));
-
+app.use('/public/Assets/images',express.static('./public/Assets/images'));
+app.use('/public/Assets/documents',express.static('./public/Assets/documents'));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
