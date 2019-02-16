@@ -2,4 +2,10 @@
 body {
     background-image: url("/public/Assets/images/back.jpg");
   }
+
+h1 {
+    color: rgb(48, 7, 71);
+    text-transform: uppercase;
+    
+}
  
