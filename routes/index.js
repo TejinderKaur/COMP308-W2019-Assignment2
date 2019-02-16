@@ -10,13 +10,13 @@ router.get('/aboutme', function(req, res, next) {
   res.render('aboutme', { title: 'About Me' });
 });
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 router.get('/project', function(req, res, next) {
   res.render('project', { title: 'Project' });
 });
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+  res.render('services', { title: 'Services' });
 });
 
 
