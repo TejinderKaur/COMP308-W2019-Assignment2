@@ -1,3 +1,9 @@
+/* Project Name: ExpressPortfolio
+   File Name: app.js
+   Name: Tejinder Kaur
+   Student id: 300976308
+   Date: February 16, 2019  */
+
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
